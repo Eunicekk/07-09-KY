@@ -1,0 +1,380 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1301px){
+    article>div,header>div{
+        width: 1300px;
+    }
+    #box02>div{
+        width: 1100px;
+    }
+    #box03>div{
+        width: 1300px;
+    }
+    #box05>div{
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 13004px) and (min-width: 1105px){
+    #box02>div{
+        width: 1100px;
+    }
+    #box05>div{
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1104px) and (min-width: 980px){
+    
+}
+
+@media screen and (max-width: 979px) and (min-width: 580px){
+    header{
+        padding:24px 0;
+    }
+      header>div{
+        display:block;
+        text-align:center;
+    }
+    header>div>nav{
+        position: fixed;
+        left: -40vw; top: 0;
+        width: 40vw; height: 100vh;
+        /* width: 390px; height: 100%; */
+        background-color: rgba(0,0,0,0.9);
+        z-index: 100;
+        padding: 20vh 0 0;
+    }
+    nav>ul{
+        width: 30vw;
+        margin: 0 auto;
+    }
+    nav>ul>li{
+      display:block;
+      margin-left:0;
+      border-bottom: 1px solid white;
+      text-align: center;
+    }
+    nav>ul>li>a{
+        line-height: 12vh;
+    }
+    header>.btn{
+        display: block;
+        right:6vw;
+    }
+    header>.btn>span{
+        position:absolute;
+        width:100%;
+        height:2px;
+        background-color:#fff;
+        left: 0; top: 0;
+    }
+    header>.btn>span:nth-child(2){top: 20.2%;}
+    header>.btn>span:nth-child(3){top: 40.4%;}
+    header>.btn>span:nth-child(4){top: 60.6%;}
+    header>.btn>span:nth-child(5){top: 80.8%;}
+    #box01>h3{
+        left: 0;
+        width: 100%;
+        border: none;
+        margin: -140px 0 0 0;;
+        font-size: 2em;
+    }
+    #box01>ul>li{
+        background-position: right center;
+    }
+    #box01>p.link{
+        left: 0;
+        margin-left: 0;
+        justify-content: center;
+    }
+    #box02 .box{
+        position:static;
+        padding-left:0;
+      }
+      #box02 .box>figure{
+        position:static;
+        width:auto;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      #box02 .box>figure>img{
+        width: auto;
+      }
+      #box02 .box>div p.title{
+        text-align: center;
+      }
+      #box02 .box>div p.text{
+        width: 92vw;
+        margin: 0 auto 40px;
+      }
+      #box03 .box{
+        /* display: block, flex-direction: column */
+        display: block;
+      }
+      #box03 .box>div{
+        width: auto;
+      }
+      #box03 .box>div p.title{
+        text-align: center;
+      }
+      #box03 .box>div p.text{
+        width: 92vw;
+        margin-bottom: 45px;
+        text-align: center;
+      }
+      #box03 .box>ul{
+        width: 60vw;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      #box03 .box>ul>li{
+        width: 8vw; height: 8vw;
+        margin: 0 1vw 2vw;
+        box-sizing: border-box;
+        background-size: 60%;
+      }
+      #box04>div{
+        width: auto;
+      }
+      #box04 div>ul>li>a{
+        width: auto;
+      }
+      #gallery{
+        position: relative;
+      }
+      #gallery #show{
+        width: 84vw;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      #gallery #all{
+        width: 168vw;
+        justify-content: flex-start;
+      }
+      #gallery figure{
+        width: 24vw;
+        margin-bottom: 0;
+        margin: 0 2vw;
+      }
+      #gallery p{
+        position: absolute;
+        width: 3vw; height: 3vw;
+        margin-top: -1.5vw;
+        display: block;
+      }
+      #galley p.prev{
+        left:3vw;
+      }
+      #galley p.next{
+        right:3vw;
+      }
+      #box05 .box{
+        position: static;
+        padding-right: 0;
+      }
+      #box05 .box>div .title{
+        text-align: center;
+      }
+      #box05 .box>div .text{
+        width: 88vw;
+        margin: 0 auto 45px;
+      }
+      #box05 .box>form{
+        position: static;
+        width: 76vw;
+        padding: 4vw 4vw;
+        margin: 0 auto;
+      }
+      aside .scroll{
+        display: none;
+      }
+}
+@media screen and (max-width: 579px) and (min-width: 5px){
+    header{
+        padding:20px 0;
+    }
+      header>div{
+        display:block;
+        text-align:center;
+    }
+    header>div>nav{
+        position: fixed;
+        left: -100vw; top: 0;
+        width: 100vw; height: 100vh;
+        /* width: 390px; height: 100%; */
+        background-color: rgba(0,0,0,0.9);
+        z-index: 100;
+        padding: 20vh 0 0;
+    }
+    nav>ul{
+        width: 60vw;
+        margin: 0 auto;
+    }
+    nav>ul>li{
+      display:block;
+      margin-left:0;
+      border-bottom: 1px solid white;
+      text-align: center;
+    }
+    nav>ul>li>a{
+        line-height: 12vh;
+    }
+    header>.btn{
+        display: block;
+        right:6vw;
+    }
+    header>.btn>span{
+        position:absolute;
+        width:100%;
+        height:2px;
+        background-color:#fff;
+        left: 0; top: 0;
+    }
+    header>.btn>span:nth-child(2){top: 20.2%;}
+    header>.btn>span:nth-child(3){top: 40.4%;}
+    header>.btn>span:nth-child(4){top: 60.6%;}
+    header>.btn>span:nth-child(5){top: 80.8%;}
+    #box01>h3{
+        left: 0;
+        width: 100%;
+        border: none;
+        margin: -140px 0 0 0;;
+        font-size: 2em;
+    }
+    #box01>ul>li{
+        background-position: right center;
+    }
+    #box01>p.link{
+        left: 0;
+        margin-left: 0;
+        justify-content: center;
+    }    
+    #box02 .box{
+        position:static;
+        padding-left:0;
+      }
+      #box02 .box>figure{
+        position:static;
+        width:auto;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      #box02 .box>figure>img{
+        width: 50%;
+      }
+      #box02 .box>div p.title{
+        width: 90vw;
+        margin: 0 auto 45px;
+        text-align: center;
+      }
+      #box02 .box>div p.text{
+        width: 90vw;
+        margin: 0 auto 40px;
+      }
+      #box02 .box>div p.btn{
+        text-align:center;
+      }
+      #box03>div{
+        width: auto;
+      }
+      #box03 .box{
+        /* display: block, flex-direction: column */
+        display: block;
+      }
+      #box03 .box>div{
+        width: auto;
+      }
+      #box03 .box>div p.title{
+        text-align: center;
+      }
+      #box03 .box>div p.text{
+        width: 90vw;
+        margin: 0 auto 45px;
+        text-align: center;
+      }
+      #box03 .box>ul{
+        width: 60vw;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      #box03 .box>ul>li{
+        width: 10vw; height: 10vw;
+        margin: 0 2.5vw 5vw;
+        box-sizing: border-box;
+        background-size: 60%;
+      }
+      #box04>div{
+        width: auto;
+      }
+      #box04 div>.title{
+        width: 90vw;
+        margin: 0 auto;
+      }
+      #box04 div>.text{
+        width: 90vw;
+        margin: 0 auto;
+      }
+      #box04 div>ul{
+        width: 90vw;
+        margin: 0 auto;
+      }
+      #box04 div>ul>li{
+        width: 90vw;
+        margin: 0 auto 10px;
+        display: block;
+      }
+      #box04 div>ul>li>a{
+        width: auto;
+      }
+      #gallery{
+        position: relative;
+      }
+      #gallery #show{
+        width: 80vw;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      #gallery #all{
+        width: 240vw;
+        justify-content: flex-start;
+      }
+      #gallery figure{
+        width: 35vw;
+        margin-bottom: 0;
+        margin: 0 2.5vw;
+      }
+      #gallery p{
+        position: absolute;
+        width: 5vw; height: 5vw;
+        margin-top: -2.5vw;
+        display: block;
+      }
+      #galley p.prev{
+        left:2.5vw;
+      }
+      #galley p.next{
+        right:2.5vw;
+      }
+      #box05 .box{
+        position: static;
+        padding-right: 0;
+      }
+      #box05 .box>div .title{
+        text-align: center;
+      }
+      #box05 .box>div .text{
+        width: 88vw;
+        margin: 0 auto 45px;
+      }
+      #box05 .box>form{
+        position: static;
+        width: 76vw;
+        padding: 4vw 4vw;
+        margin: 0 auto;
+      }
+
+      aside .scroll{
+        display: none;
+      }
+}
